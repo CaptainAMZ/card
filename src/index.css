@@ -1,0 +1,24 @@
+@font-face {
+  font-family: mont;
+  src: url(../public/Font/Montserrat-VariableFont_wght.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: mont;
+}
+
+
+:root{
+  font-size: 62.5%;
+}
+
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+

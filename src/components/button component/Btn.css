@@ -1,0 +1,22 @@
+.buttons__button{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 16px;
+    background-color: transparent;
+    color: rgb(42, 132, 206);
+    cursor: pointer;
+    font-family: mont;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: all .1s ease-out ;
+}
+
+.buttons__button:focus-visible{
+    outline: 2px solid black
+}
+
+.buttons__button:hover{
+    background-color: rgb(42, 132, 206);
+    color: white;
+}
